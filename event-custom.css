@@ -1,4 +1,12 @@
-h1.title {
+.appbar-header[_ngcontent-app-id-c172] h1.title[_ngcontent-app-id-c172] {
     color:#b38b40;
-    font-size: 34px;
+    font-size:34px;
+}
+
+.mat-tab-links a.mat-tab-link {
+    color:#ececec ;
+}
+
+.mat-tab-links a.mat-tab-link.active {
+    color:#b38b40 ;
 }
