@@ -1,3 +1,119 @@
+:root {
+    --primaryColorOriginal: #BC9D58 !important;
+    --primaryColorOriginalForceDark: #403117 !important;
+    --primaryColorOriginalForceLight: #cdae74 !important;
+    --primaryColorOriginalContrast: #0b0904 !important;
+    --primaryColorOriginalDarkened: #0b0904 !important;
+    --primaryColorOriginalLightened: #f6f0e5 !important;
+    --primaryColorOriginalHover: #7c602d  !important;
+    --primaryColorOriginalActive: #433418  !important;
+    --primaryColorOriginalTextContrast: #333333  !important;
+    --primaryColorOriginalBtnBkgd: #BC9D58  !important;
+    --primaryColorOriginalTextSemiMutedContrast:#666666 !important;
+    --primaryColorOriginalTextMutedContrast: #c8c8c8 !important;
+    --primaryColor: #BC9D58;
+    --accentColor: #2672ff;
+    --warningColor: #e6b000;
+    --errorColor: #dd2c00;
+    --successColor: #00cc69;
+    --colorMode: light;
+    --primaryFontFace: Noto Sherif;
+    --contentScaleFactor: 1;
+    --baseFontSize: 16;
+    --letterSpaceFactor: 0;
+    --primaryTextColor: hsla(41,43%,54%,1) !important;
+    --primaryTextSemiMutedColor: hsla(41,47%,54%,0.80) !important;
+    --primaryTextMutedColor: hsla(41,47%,54%,0.60) !important;
+    --accentTextColor: #0059ff;
+    --accentTextSemiMutedColor: hsla(219,100%,50%,0.80);
+    --accentTextMutedColor: hsla(219,100%,50%,0.60);
+    --warningTextColor: #b38900;
+    --warningTextSemiMutedColor: hsla(46,100%,35%,0.80);
+    --warningTextMutedColor: hsla(46,100%,35%,0.60);
+    --errorTextColor: #db2c00;
+    --errorTextSemiMutedColor: hsla(12,100%,43%,0.80);
+    --errorTextMutedColor: hsla(12,100%,43%,0.60);
+    --successTextColor: #00a655;
+    --successTextSemiMutedColor: hsla(151,100%,33%,0.80);
+    --successTextMutedColor: hsla(151,100%,33%,0.60);
+    --wordSpacingFactor: 0;
+    --lineHeightFactor: 1;
+    --surfaceTextColor:hsla(41,43%,54%,1.0) !important;
+    --surfaceBkgdColor:#ececec !important;
+    --surfaceTextSemiMutedColor:hsla(41,43%,54%,.6) !important;
+    --surfaceTextMutedColor: hsla(41,43%,54%,.3)  !important;
+    --surfaceVariantBkgdColor: #F5F5F5;
+    --surfaceVariantTextColor: rgba(0,0,0,1.00);
+    --surfaceVariantTextSemiMutedColor: rgba(0,0,0,0.60);
+    --surfaceVariantTextMutedColor: rgba(0,0,0,0.40);
+    --tooltipSurfaceBkgdColor: rgba(0,0,0,0.90);
+    --tooltipTextColor: rgba(255,255,255,1.00);
+    --dialogSurfaceBkgdColor: #FFFFFF;
+    --dialogSurfaceTextColor: rgba(0,0,0,1.00);
+    --dialogSurfaceTextSemiMutedColor: rgba(0,0,0,0.87);
+    --dialogSurfaceTextMutedColor: rgba(0,0,0,0.54);
+    --borderColor: #333333 !important;
+    --backdropColor: rgba(242,242,242,0.90);
+    --backgroundColor: ##c8c8c8 !important;
+    --backgroundTextColor: rgba(255,255,255,1.00);
+    --backgroundColorContrast: rgba(255,255,255,1.00);
+    --backgroundTextSemiMutedColor: rgba(255,255,255,0.60);
+    --backgroundTextMutedColor: rgba(255,255,255,0.40);
+    --primaryColorContrast: #333333 !important;
+    --primaryColorSemiMutedContrast: rgba(0,0,0,0.60);
+    --primaryColorMutedContrast: rgba(0,0,0,0.40);
+    --primaryColorModifier1: rgba(198,163,98,0.40);
+    --primaryColorModifier2: rgba(198,163,98,0.54);
+    --accentColorContrast: rgba(0,0,0,1.00);
+    --accentColorSemiMutedContrast: rgba(0,0,0,0.60);
+    --accentColorMutedContrast: rgba(0,0,0,0.40);
+    --accentColorModifier1: rgba(87,146,255,0.40);
+    --accentColorModifier2: rgba(87,146,255,0.54);
+    --warningColorContrast: rgba(0,0,0,1.00);
+    --warningColorSemiMutedContrast: rgba(0,0,0,0.60);
+    --warningColorMutedContrast: rgba(0,0,0,0.40);
+    --warningColorModifier1: rgba(255,201,26,0.40);
+    --warningColorModifier2: rgba(255,201,26,0.54);
+    --errorColorContrast: rgba(255,255,255,1.00);
+    --errorColorSemiMutedContrast: rgba(255,255,255,0.60);
+    --errorColorMutedContrast: rgba(255,255,255,0.40);
+    --errorColorModifier1: rgba(168,34,0,0.40);
+    --errorColorModifier2: rgba(168,34,0,0.54);
+    --successColorContrast: rgba(0,0,0,1.00);
+    --successColorSemiMutedContrast: rgba(0,0,0,0.60);
+    --successColorMutedContrast: rgba(0,0,0,0.40);
+    --successColorModifier1: rgba(0,255,132,0.40);
+    --successColorModifier2: rgba(0,255,132,0.54);
+}
+
+@font-face {
+    font-family: AzoSansWebReg, sans-serif;
+    src: url('https://tiger21-llc.github.io/TIGER21-Events/rui-abreu-azosans-regular.otf') format('opentype');
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: AzoSansWebLight, sans-serif ;
+    src: url('https://tiger21-llc.github.io/TIGER21-Events/rui-abreu-azosans-light.otf') format('opentype');
+    font-weight: 200;
+  }
+  
+  @font-face {
+    font-family: AzoSansWebMed, sans-serif ;
+    src: url('https://tiger21-llc.github.io/TIGER21-Events/rui-abreu-azosans-medium.otf') format('opentype');
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-family: AzoSansWebBold, sans-serif ;
+    src: url('https://tiger21-llc.github.io/TIGER21-Events/rui-abreu-azosans-bold.otf') format('opentype');
+    font-weight: 800;
+  }
+  
+body {
+    font-family:'AzoSansWebLight', sans-serif;
+}
+
 .appbar-header[_ngcontent-app-id-c172] h1.title[_ngcontent-app-id-c172] {
     color:#b38b40;
     font-size:34px;
