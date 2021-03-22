@@ -1,4 +1,5 @@
 :root {
+  /* Overrides of Blackthorn defined variables */
     --primaryColorOriginal: #BC9D58 !important;
     --primaryColorOriginalForceDark: #403117 !important;
     --primaryColorOriginalForceLight: #cdae74 !important;
@@ -17,7 +18,7 @@
     --errorColor: #dd2c00;
     --successColor: #00cc69;
     --colorMode: light;
-    --primaryFontFace: Noto Sherif;
+    --primaryFontFace: sans-serif;
     --contentScaleFactor: 1;
     --baseFontSize: 16;
     --letterSpaceFactor: 0;
@@ -84,6 +85,7 @@
     --successColorMutedContrast: rgba(0,0,0,0.40);
     --successColorModifier1: rgba(0,255,132,0.40);
     --successColorModifier2: rgba(0,255,132,0.54);
+/* Custom variables used below */    
 }
 
 @font-face {
