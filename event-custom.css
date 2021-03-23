@@ -1,5 +1,14 @@
 :root {
   /* Overrides of Blackthorn defined variables */
+    --primaryFontFace: AzoSansWebLight !important;
+  
+    --surfaceTextColor: #333333 !important;
+    --surfaceTextSemiMutedColor: #666666 !important;
+    --surfaceTextMutedColor: #c8c8c8  !important;
+    --surfaceBkgdColor: #ffffff !important;
+  
+    --backgroundColor: #fafbfd !important;
+
     --primaryColorOriginal: #BC9D58 !important;
     --primaryColorOriginalForceDark: #403117 !important;
     --primaryColorOriginalForceLight: #cdae74 !important;
@@ -18,10 +27,7 @@
     --errorColor: #dd2c00;
     --successColor: #00cc69;
     --colorMode: light;
-    --primaryFontFace: sans-serif;
-    --contentScaleFactor: 1;
-    --baseFontSize: 16;
-    --letterSpaceFactor: 0;
+    
     --primaryTextColor: hsla(41,43%,54%,1) !important;
     --primaryTextSemiMutedColor: hsla(41,47%,54%,0.80) !important;
     --primaryTextMutedColor: hsla(41,47%,54%,0.60) !important;
@@ -39,10 +45,6 @@
     --successTextMutedColor: hsla(151,100%,33%,0.60);
     --wordSpacingFactor: 0;
     --lineHeightFactor: 1;
-    --surfaceTextColor:hsla(41,43%,54%,1.0) !important;
-    --surfaceBkgdColor:#ececec !important;
-    --surfaceTextSemiMutedColor:hsla(41,43%,54%,.6) !important;
-    --surfaceTextMutedColor: hsla(41,43%,54%,.3)  !important;
     --surfaceVariantBkgdColor: #F5F5F5;
     --surfaceVariantTextColor: rgba(0,0,0,1.00);
     --surfaceVariantTextSemiMutedColor: rgba(0,0,0,0.60);
@@ -55,7 +57,7 @@
     --dialogSurfaceTextMutedColor: rgba(0,0,0,0.54);
     --borderColor: #333333 !important;
     --backdropColor: rgba(242,242,242,0.90);
-    --backgroundColor: #c8c8c8 !important;
+    
     --backgroundTextColor: rgba(255,255,255,1.00);
     --backgroundColorContrast: rgba(255,255,255,1.00);
     --backgroundTextSemiMutedColor: rgba(255,255,255,0.60);
@@ -85,7 +87,11 @@
     --successColorMutedContrast: rgba(0,0,0,0.40);
     --successColorModifier1: rgba(0,255,132,0.40);
     --successColorModifier2: rgba(0,255,132,0.54);
-/* Custom variables used below */    
+/* Custom variables used below */
+
+  --headerTextColor: #ffffff !important;
+  --headerTextMutedColor: #a4a4a4 !important;
+  --headerBkgdColor: #333333 !important;
 }
 
 @font-face {
@@ -113,7 +119,11 @@
   }
   
 body {
-    font-family:'AzoSansWebLight', sans-serif;
+    font-family:var(--primaryFontFace);
+}
+
+.appbar[_ngcontent-app-id-c172] {
+  background-color: var(--headerBkgdColor);
 }
 
 .appbar-header[_ngcontent-app-id-c172] {
@@ -125,13 +135,24 @@ body {
 }
 
 .mat-tab-links a.mat-tab-link:hover {
-    color: var(--surfaceTextColor) ;
+    color: var(--headerTextColor) ;
 }
 
+.mat-tab-links a.mat-tab-link {
+  color: var(--headerTextMutedColor);
+}
+
+.mat-tab-links a.active {
+color: var(--headerTextColor);
+}
+
+
+/*
 .mat-icon {
     color: var(--surfaceTextColor) !important;
   }
-  
+
+
 bt-card-header {
     color: var(--surfaceTextColor) !important;
-}
+}*/
