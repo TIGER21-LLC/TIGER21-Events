@@ -132,6 +132,12 @@ body {
 
 .appbar-header[_ngcontent-app-id-c172] h1.title[_ngcontent-app-id-c172] {
     font-size:30px;
+    color: var(--headerTextColor);
+}
+
+/* Menu div */
+.nav-container[_ngcontent-app-id-c172] {
+  background-color:var(--headerBkgdColor) !important;
 }
 
 .mat-tab-links a.mat-tab-link:hover {
