@@ -65,6 +65,10 @@ body {
     color: var(--headerTextColor) !important;
 }
 
+.search-result {
+  background-color: var(--backgroundColor) !important;
+}
+
 /* Menu div */
 .nav-container {
   background-color:var(--headerBkgdColor) !important;
@@ -89,6 +93,10 @@ color: var(--headerTextColor);
 
 
 .mat-icon {
+    color: var(--primaryColor) !important;
+  }
+
+.material-icons {
     color: var(--primaryColor) !important;
   }
 
