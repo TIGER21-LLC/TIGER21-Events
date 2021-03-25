@@ -2,6 +2,7 @@
   /* Overrides of Blackthorn defined variables */
     --primaryFontFace: AzoSansWebLight !important;
     --primaryColor: #BC9D58 !important;
+    --primaryTextColor: #BC9D58 !important;
     --primaryColorContrast: #333333 !important;
 
     --surfaceTextColor: #333333 !important;
@@ -11,7 +12,6 @@
   
     --backgroundColor: #fafbfd !important;
  
-    /* Other Blackthorn values - TBD */
    /* Custom variables used below */
 
   --headerTextColor: #ffffff !important;
@@ -47,8 +47,12 @@ body {
     font-family:var(--primaryFontFace);
 }
 
-.appbar[_ngcontent-app-id-c172] {
+.appbar {
   background-color: var(--headerBkgdColor) !important;
+}
+
+.appbar h1 {
+  color: var(--headerTextColor) !important;
 }
 
 .appbar-header[_ngcontent-app-id-c172] {
@@ -56,8 +60,8 @@ body {
 }
 
 .appbar-header[_ngcontent-app-id-c172] h1.title[_ngcontent-app-id-c172] {
-    font-size:30px;
-    color: var(--headerTextColor);
+    font-size:30px !important;
+    color: var(--headerTextColor) !important;
 }
 
 /* Menu div */
@@ -77,13 +81,17 @@ body {
 color: var(--headerTextColor);
 }
 
+.product-item__day {
+  background-color: var(--surfaceVariantBkgdColor) !important;
+  border-radius: .3125rem !important;
+}
 
-/*
+
 .mat-icon {
-    color: var(--surfaceTextColor) !important;
+    color: var(--primaryColor) !important;
   }
 
-
+/*
 bt-card-header {
     color: var(--surfaceTextColor) !important;
 }*/
