@@ -20,25 +20,25 @@
 }
 
 @font-face {
-    font-family: AzoSansWebReg, sans-serif;
+    font-family: AzoSansWebReg;
     src: url('https://tiger21-llc.github.io/TIGER21-Events/rui-abreu-azosans-regular.otf') format('opentype');
     font-weight: 400;
   }
   
   @font-face {
-    font-family: AzoSansWebLight, sans-serif ;
+    font-family: AzoSansWebLight;
     src: url('https://tiger21-llc.github.io/TIGER21-Events/rui-abreu-azosans-light.otf') format('opentype');
     font-weight: 200;
   }
   
   @font-face {
-    font-family: AzoSansWebMed, sans-serif ;
+    font-family: AzoSansWebMed;
     src: url('https://tiger21-llc.github.io/TIGER21-Events/rui-abreu-azosans-medium.otf') format('opentype');
     font-weight: 600;
   }
   
   @font-face {
-    font-family: AzoSansWebBold, sans-serif ;
+    font-family: AzoSansWebBold;
     src: url('https://tiger21-llc.github.io/TIGER21-Events/rui-abreu-azosans-bold.otf') format('opentype');
     font-weight: 800;
   }
@@ -51,21 +51,22 @@ body {
   background-color: var(--headerBkgdColor) !important;
 }
 
-.appbar h1 {
+.appbar-title {
+  font-size:2.0em !important;
   color: var(--headerTextColor) !important;
 }
 
-.appbar-header[_ngcontent-app-id-c172] {
+.appbar-header {
     max-width: 88rem !important;
 }
 
-.appbar-header[_ngcontent-app-id-c172] h1.title[_ngcontent-app-id-c172] {
-    font-size:30px !important;
+.appbar-header h1.title {
+    font-size:2.0em !important;
     color: var(--headerTextColor) !important;
 }
 
 /* Menu div */
-.nav-container[_ngcontent-app-id-c172] {
+.nav-container {
   background-color:var(--headerBkgdColor) !important;
 }
 
