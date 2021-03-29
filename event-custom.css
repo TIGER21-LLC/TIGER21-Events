@@ -51,6 +51,10 @@ body {
   background-color: var(--headerBkgdColor) !important;
 }
 
+.appbar h1 {
+  color: var(--headerTextColor) !important;
+}
+
 .appbar-title {
   font-size:2.0em !important;
   color: var(--headerTextColor) !important;
@@ -91,7 +95,6 @@ color: var(--headerTextColor);
   border-radius: .3125rem !important;
 }
 
-
 .mat-icon {
     color: var(--primaryColor) !important;
   }
@@ -99,6 +102,27 @@ color: var(--headerTextColor);
 .material-icons {
     color: var(--primaryColor) !important;
   }
+
+bt-event-custom-tab {
+    max-width: 100% !important;
+    padding: 1.5rem 3.0rem 45vh !important;
+  }
+  
+bt-event-faq div.container {
+    max-width: 100% !important;
+    padding: 1.5rem 3.0rem 45vh !important;
+  }
+
+bt-event-speakers main.container {
+    max-width: 100% !important;
+    padding: 1.5rem 3.0rem 45vh !important;
+  }
+
+bt-event-sponsors main.container {
+    max-width: 100% !important;
+    padding: 1.5rem 3.0rem 45vh !important;
+  }
+
 
 /*
 bt-card-header {
