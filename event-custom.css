@@ -123,6 +123,10 @@ bt-event-sponsors main.container {
     padding: 1.5rem 3.0rem 45vh !important;
   }
 
+  /* Hides the Contat Information section on the check-out page */
+div.checkout-info-container {
+  display: none !important;
+}
 
 /*
 bt-card-header {
