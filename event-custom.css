@@ -36,7 +36,7 @@
     src: url('https://tiger21-llc.github.io/TIGER21-Events/rui-abreu-azosans-medium.otf') format('opentype');
     font-weight: 600;
   }
-  
+  b
   @font-face {
     font-family: AzoSansWebBold;
     src: url('https://tiger21-llc.github.io/TIGER21-Events/rui-abreu-azosans-bold.otf') format('opentype');
@@ -125,6 +125,10 @@ bt-event-sponsors main.container {
 
   /* Hides the Contat Information section on the check-out page */
 div.checkout-info-container {
+  display: none !important;
+}
+
+div.inner {
   display: none !important;
 }
 
