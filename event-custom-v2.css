@@ -142,6 +142,6 @@ bt-card-header {
 }*/
 
 /* Hides the Add to Calendar button */
-.mat-stroked-button:not([class*=mat-elevation-z],[class=done-button],[class=cancel-button]) {
+.mat-stroked-button:not(.done-button,.cancel-button) {
     display: none;
 }
