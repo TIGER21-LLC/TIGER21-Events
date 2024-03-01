@@ -140,3 +140,8 @@ div.inner {
 bt-card-header {
     color: var(--surfaceTextColor) !important;
 }*/
+
+/* Hides the Add to Calendar button */
+.mat-stroked-button:not([class*=mat-elevation-z]) {
+    display: none;
+}
