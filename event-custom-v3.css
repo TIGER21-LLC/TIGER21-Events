@@ -125,20 +125,27 @@ bt-event-sponsors main.container {
     padding: 1.5rem 3.0rem 45vh !important;
   }
 
-  /* Hides the Contat Information section on the check-out page */
-div.checkout-info-container {
+  /* Hides the Contat Information section on the check-out page 
+     also hides the payment information section, so needed for paid events*/
+/*div.checkout-info-container {
   display: none !important;
 }
+*/
 
-div.inner {
+/*div.inner {
   display: none !important;
 }
+*/
 
 /*
 bt-card-header {
     color: var(--surfaceTextColor) !important;
 }*/
 
+/* Hides the Add to Calendar button */
+.mat-stroked-button:not(.done-button,.cancel-button) {
+    display: none;
+}
 @media (min-width: 60rem) {
   div.card-content.cover-image {
     width: 100% !important;
