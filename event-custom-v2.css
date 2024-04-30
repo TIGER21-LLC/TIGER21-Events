@@ -136,6 +136,10 @@ div.inner {
   display: none !important;
 }
 
+h1.event-name {
+  word-break:break-word !important;  
+}
+
 /*
 bt-card-header {
     color: var(--surfaceTextColor) !important;
