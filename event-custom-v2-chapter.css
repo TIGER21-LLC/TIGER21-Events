@@ -154,3 +154,7 @@ bt-card-header {
 h2.organizer-name {
   display: none !important;
 }
+
+div.social-button {
+   display: none !important;
+}
