@@ -142,3 +142,7 @@ bt-card-header {
     width: 100% !important;
 }
 }
+
+div.social-button {
+   display: none !important;
+}
