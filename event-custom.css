@@ -142,3 +142,11 @@ bt-card-header {
     width: 100% !important;
 }
 }
+
+button.done-button {
+  visibility: hidden;
+}
+
+div.session-registration-container {
+  display: none;
+}
