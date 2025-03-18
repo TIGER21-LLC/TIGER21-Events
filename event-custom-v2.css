@@ -149,3 +149,7 @@ bt-card-header {
 .mat-stroked-button:not(.done-button,.cancel-button) {
     display: none;
 }
+
+.social-button {
+   display: none !important;
+}
