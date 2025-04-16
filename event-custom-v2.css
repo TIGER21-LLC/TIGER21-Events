@@ -131,10 +131,11 @@ bt-event-sponsors main.container {
   display: none !important;
 }
 */
-
+/* No longer hiding, so users can launch the Zoom directly from the Event
 div.inner {
   display: none !important;
 }
+*/
 
 h1.event-name {
   word-break:break-word !important;  
@@ -152,4 +153,12 @@ bt-card-header {
 
 .social-button {
    display: none !important;
+}
+
+button.done-button {
+  visibility: hidden;
+}
+
+div.session-registration-container {
+  display: none;
 }
